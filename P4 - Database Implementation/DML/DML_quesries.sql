@@ -334,4 +334,34 @@ VALUES
 (28, 28, '2024-05-28 10:00:00', 'No damage found', 'N/A', 'Average service'),
 (29, 29, '2024-05-29 10:00:00', 'Minor dent on the rear bumper', 'Minor dent on the rear bumper', 'Good service');
 
-
+INSERT INTO Billing (ReservationID, InspectionID, Bill_Amount_Total, Bill_Amount_Due, Payment_Date, Payment_Status, Payment_Mode, Billing_Statement)
+VALUES
+(1, 31, 100.00, 100.00, '2024-05-01 10:00:00', 'Success', 'Cash', 'Bill statement for Reservation ID 1 and Inspection ID 31'),
+(2, 32, 150.00, 150.00, '2024-05-02 10:00:00', 'Failed', 'Credit/Debit Card', 'Bill statement for Reservation ID 2 and Inspection ID 32'),
+(3, 33, 200.00, 200.00, '2024-05-03 10:00:00', 'Success', 'Google Pay', 'Bill statement for Reservation ID 3 and Inspection ID 33'),
+(4, 34, 250.00, 250.00, '2024-05-04 10:00:00', 'Success', 'Apple Pay', 'Bill statement for Reservation ID 4 and Inspection ID 34'),
+(5, 35, 300.00, 300.00, '2024-05-05 10:00:00', 'In Progress', 'Cash', 'Bill statement for Reservation ID 5 and Inspection ID 35'),
+(6, 36, 350.00, 350.00, '2024-05-06 10:00:00', 'Failed', 'Credit/Debit Card', 'Bill statement for Reservation ID 6 and Inspection ID 36'),
+(7, 37, 400.00, 400.00, '2024-05-07 10:00:00', 'Success', 'Google Pay', 'Bill statement for Reservation ID 7 and Inspection ID 37'),
+(8, 38, 450.00, 450.00, '2024-05-08 10:00:00', 'Success', 'Apple Pay', 'Bill statement for Reservation ID 8 and Inspection ID 38'),
+(9, 39, 500.00, 500.00, '2024-05-09 10:00:00', 'In Progress', 'Cash', 'Bill statement for Reservation ID 9 and Inspection ID 39'),
+(10, 40, 550.00, 550.00, '2024-05-10 10:00:00', 'Failed', 'Credit/Debit Card', 'Bill statement for Reservation ID 10 and Inspection ID 40'),
+(11, 41, 600.00, 600.00, '2024-05-11 10:00:00', 'Success', 'Google Pay', 'Bill statement for Reservation ID 11 and Inspection ID 41'),
+(12, 42, 650.00, 650.00, '2024-05-12 10:00:00', 'Success', 'Apple Pay', 'Bill statement for Reservation ID 12 and Inspection ID 42'),
+(13, 43, 700.00, 700.00, '2024-05-13 10:00:00', 'In Progress', 'Cash', 'Bill statement for Reservation ID 13 and Inspection ID 43'),
+(14, 44, 750.00, 750.00, '2024-05-14 10:00:00', 'Failed', 'Credit/Debit Card', 'Bill statement for Reservation ID 14 and Inspection ID 44'),
+(15, 45, 800.00, 800.00, '2024-05-15 10:00:00', 'Success', 'Google Pay', 'Bill statement for Reservation ID 15 and Inspection ID 45'),
+(16, 46, 850.00, 850.00, '2024-05-16 10:00:00', 'Success', 'Apple Pay', 'Bill statement for Reservation ID 16 and Inspection ID 46'),
+(17, 47, 900.00, 900.00, '2024-05-17 10:00:00', 'In Progress', 'Cash', 'Bill statement for Reservation ID 17 and Inspection ID 47'),
+(18, 48, 950.00, 950.00, '2024-05-18 10:00:00', 'Failed', 'Credit/Debit Card', 'Bill statement for Reservation ID 18 and Inspection ID 48'),
+(19, 49, 1000.00, 1000.00, '2024-05-19 10:00:00', 'Success', 'Google Pay', 'Bill statement for Reservation ID 19 and Inspection ID 49'),
+(20, 50, 1050.00, 1050.00, '2024-05-20 10:00:00', 'Success', 'Apple Pay', 'Bill statement for Reservation ID 20 and Inspection ID 50'),
+(21, 51, 1100.00, 1100.00, '2024-05-21 10:00:00', 'In Progress', 'Cash', 'Bill statement for Reservation ID 21 and Inspection ID 51'),
+(22, 52, 1150.00, 1150.00, '2024-05-22 10:00:00', 'Failed', 'Credit/Debit Card', 'Bill statement for Reservation ID 22 and Inspection ID 52'),
+(23, 53, 1200.00, 1200.00, '2024-05-23 10:00:00', 'Success', 'Google Pay', 'Bill statement for Reservation ID 23 and Inspection ID 53'),
+(24, 54, 1250.00, 1250.00, '2024-05-24 10:00:00', 'Success', 'Apple Pay', 'Bill statement for Reservation ID 24 and Inspection ID 54'),
+(25, 55, 1300.00, 1300.00, '2024-05-25 10:00:00', 'In Progress', 'Cash', 'Bill statement for Reservation ID 25 and Inspection ID 55'),
+(26, 56, 1350.00, 1350.00, '2024-05-26 10:00:00', 'Failed', 'Credit/Debit Card', 'Bill statement for Reservation ID 26 and Inspection ID 56'),
+(27, 57, 1400.00, 1400.00, '2024-05-27 10:00:00', 'Success', 'Google Pay', 'Bill statement for Reservation ID 27 and Inspection ID 57'),
+(28, 58, 1450.00, 1450.00, '2024-05-28 10:00:00', 'Success', 'Apple Pay', 'Bill statement for Reservation ID 28 and Inspection ID 58'),
+(29, 59, 1500.00, 1500.00, '2024-05-29 10:00:00', 'In Progress', 'Cash', 'Bill statement for Reservation ID 29 and Inspection ID 59');
